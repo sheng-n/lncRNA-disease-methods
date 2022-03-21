@@ -19,7 +19,7 @@
 
 2. Chen X, You Z-H, Yan G-Y et al. IRWRLDA: improved random walk with restart for lncRNA-disease association prediction, Oncotarget 2016;7(36):57919-57931
 
-3. 
+
 
 ## 2017
 1. Gu C, Liao B, Li X et al. Global network random walk for predicting potential human lncRNA-disease associations, Scientific Reports 2017;7(1):12442

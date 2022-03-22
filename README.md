@@ -137,4 +137,6 @@
 5. Lan W, Wu X, Chen Q et al. GANLDA: Graph attention network for lncRNA-disease associations prediction, Neurocomputing 2022;469:384-393.
 
 ## Welcome to contribute
-Email: shengnan21@mails.jlu.edu.cn
+If you would like to help contribute this list, please feel free to contact me by email:
+
+* Email: shengnan21@mails.jlu.edu.cn

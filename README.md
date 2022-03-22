@@ -73,7 +73,7 @@
 35. Xuan P, Pan S, Zhang T et al. Graph Convolutional Network and Convolutional Neural Network Based Method for Predicting lncRNA-Disease Associations, Cells 2019;8(9)
 
 ## 2020
-1. Yao D, Zhan X, Zhan X et al. A random forest based computational model for predicting novel lncRNA-disease associations, BMC Bioinformatics 2020;21(1):126
+1. Yao D, Zhan X, Zhan X et al. A random forest based computational model for predicting novel lncRNA-disease associations, BMC Bioinformatics 2020;21(1):126 [Code](https://github.com/ydkvictory/RFLDA) 
 
 3. Xie G, Jiang J, Sun Y. LDA-LNSUBRW: lncRNA-disease association prediction based on linear neighborhood similarity and unbalanced bi-random walk, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2020:1-1
 

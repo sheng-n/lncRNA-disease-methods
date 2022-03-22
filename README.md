@@ -1,4 +1,5 @@
 # LncRNA-disease association prediction methods Review
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)![GitHub stars](https://img.shields.io/github/stars/LirongWu/awesome-graph-self-supervised-learning?color=yellow)  ![GitHub forks](https://img.shields.io/github/forks/LirongWu/awesome-graph-self-supervised-learning?color=green&label=Fork)  ![visitors](https://visitor-badge.glitch.me/badge?page_id=LirongWu.awesome-graph-self-supervised-learning)
 
 
 ## 2013

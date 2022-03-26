@@ -134,6 +134,9 @@
 
 33. Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
 
+35. Deng L, Li W, Zhang J. LDAH2V: Exploring Meta-Paths Across Multiple Networks for lncRNA-Disease Association Prediction, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021;18(4):1572-1581.
+
+
 ## 2022
 1. Wang L, Shang M, Dai Q et al. Prediction of lncRNA-disease association based on a Laplace normalized random walk with restart algorithm on heterogeneous networks, BMC Bioinformatics 2022;23(1):5. [**[Code]**](https://github.com/wang-124/LRWRHLDA "Click")
 

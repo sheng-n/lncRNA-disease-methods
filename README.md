@@ -1,6 +1,16 @@
 # LncRNA-disease association prediction methods Review
 ![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-disease-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-disease-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.lncRNA-disease-methods)
 
+## Table of Contents
+* [[2013](#2013)  [2014](#2014) [2015](#2015) [2016](#2016) [2017](#2017) [2018](#2018)  [2019](#2019) [2020](#2020)  [2021](#2021) [2022](#2022)]
+* [Cancer-related lncRNA candidates](#candidates) 
+* -[Training Strategy](#Training-Strategy)
+
+
+
+
+
+## Training Strategy
 
 ## 2013
 1. Chen X, Yan G-Y. Novel human lncRNA–disease association inference based on lncRNA expression profiles, Bioinformatics 2013;29(20):2617-2624.
@@ -135,6 +145,9 @@
 
 3. Sheng N, Huang L, Wang Y et al. Sheng N, Huang L, Wang Y et al. Multi-channel graph attention autoencoders for disease-related lncRNAs prediction, Briefings in Bioinformatics 2022;23(2). [**[Code]**](https://github.com/sheng-n/MGATE "Click")
 
+5. Lan W, Wu X, Chen Q et al. GANLDA: Graph attention network for lncRNA-disease associations prediction, Neurocomputing 2022;469:384-393.
+
+## candidates
 5. Lan W, Wu X, Chen Q et al. GANLDA: Graph attention network for lncRNA-disease associations prediction, Neurocomputing 2022;469:384-393.
 
 ## Welcome to contribute

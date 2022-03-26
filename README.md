@@ -3,7 +3,7 @@
 
 ## Table of Contents
 * [[2013](#2013)  [2014](#2014) [2015](#2015) [2016](#2016) [2017](#2017) [2018](#2018)  [2019](#2019) [2020](#2020)  [2021](#2021) [2022](#2022)]
-* [Cancer-related lncRNA candidates](#Cancer-related lncRNA candidates) 
+* [Cancer-related lncRNA candidates](#Cancer related lncRNA candidates) 
 * 
 
 
@@ -147,7 +147,7 @@
 
 5. Lan W, Wu X, Chen Q et al. GANLDA: Graph attention network for lncRNA-disease associations prediction, Neurocomputing 2022;469:384-393.
 
-## Cancer-related lncRNA candidates
+## Cancer related lncRNA candidates
 5. Lan W, Wu X, Chen Q et al. GANLDA: Graph attention network for lncRNA-disease associations prediction, Neurocomputing 2022;469:384-393.
 
 ## Welcome to contribute

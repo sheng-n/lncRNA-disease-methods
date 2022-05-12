@@ -7,8 +7,10 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
 ## Table of Contents
 * [Overview](#Overview) 
 * [Machine learning-based methods](#Machine-learning-based-methods) 
-
-* [Computational methods: [2013](#2013)  [2014](#2014) [2015](#2015) [2016](#2016) [2017](#2017) [2018](#2018)  [2019](#2019) [2020](#2020)  [2021](#2021) [2022](#2022)]
+* [Network propagation-based methods](#Network-propagation-based-methods) 
+* [Matrix factorization- and completion-based methods](#Matrix-factorization-and-completion-based-methods) 
+* [Deep learning-based methods](#Deep-learning-based-methods) 
+* [Graph neural network-based methods](#Graph-neural-network-based-methods) 
 * [Cancer-related lncRNA candidates](#Cancer-related-lncRNA-candidates) 
 
 ## Overview
@@ -167,21 +169,6 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 3. Zhao X, Zhao X, Yin M. Heterogeneous graph attention network based on meta-paths for lncRNA–disease association prediction, Briefings in Bioinformatics 2021;23(1).
 
 4. Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-## 2013
-## 2014
-## 2015
-## 2016
-## 2017
-## 2018
-## 2019
-## 2020
-## 2021
-## 2022
-
-
-
-
 
 
 ## Cancer related lncRNA candidates

@@ -6,6 +6,8 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
 
 ## Table of Contents
 * [Overview](#Overview) 
+* [Machine learning-based methods](#Machine-learning-based-methods) 
+
 * [Computational methods: [2013](#2013)  [2014](#2014) [2015](#2015) [2016](#2016) [2017](#2017) [2018](#2018)  [2019](#2019) [2020](#2020)  [2021](#2021) [2022](#2022)]
 * [Cancer-related lncRNA candidates](#Cancer-related-lncRNA-candidates) 
 
@@ -14,7 +16,7 @@ We present a timely and comprehensive review of existing computational methods f
 ![Computational lncRNA-disease association prediction methods based on various models.](https://user-images.githubusercontent.com/95516781/168040579-416a1848-be8b-4066-af50-48453d29f011.png)
 Fig 1: Computational lncRNA-disease association prediction methods based on various models.
 
-## Machine learning-based computational methods
+## Machine learning-based methods
 ### Regularized Least Square
 1. Chen X, Yan G-Y. Novel human lncRNA–disease association inference based on lncRNA expression profiles, Bioinformatics 2013;29(20):2617-2624.
 
@@ -36,7 +38,7 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 
 2. Yu J, Ping P, Wang L et al. A Novel Probability Model for LncRNA–Disease Association Prediction Based on the Naïve Bayesian Classifier, Genes 2018;9(7).
 
-## Network propagation-based computational methods
+## Network propagation-based methods
 ### Random walk
 1. Sun J, Shi H, Wang Z et al. Inferring novel lncRNA–disease associations based on a random walk model of a lncRNA functional similarity network, Molecular Biosystems 2014;10(8):2074-2081.
 
@@ -89,122 +91,98 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 
 7. Li J, Li J, Kong M et al. SVDNVLDA: predicting lncRNA-disease associations by Singular Value Decomposition and node2vec, BMC Bioinformatics 2021;22(1):538.
 
+## Matrix factorization- and completion-based methods
+### Matrix factorization
+1. Fu G, Wang J, Domeniconi C et al. Matrix factorization-based data fusion for the prediction of lncRNA–disease associations, Bioinformatics 2017;34(9):1529-1537. [**[Code]**](http://www.sdu-idea.cn/codes.php?name=MFLDA "Click") 
+
+2. Wang Y, Yu G, Wang J et al. Weighted matrix factorization on multi-relational data for LncRNA-disease association prediction, Methods 2020;173:32-43. [**[Code]**](http://mlda.swu.edu.cn/codes.php?name=WMFLDA "Click") 
+
+3. Li Y, Li J, Bian N. DNILMF-LDA: Prediction of lncRNA-Disease Associations by Dual-Network Integrated Logistic Matrix Factorization and Bayesian Optimization, Genes 2019;10(8).
+
+4. Xuan Z, Li J, Yu J et al. A Probabilistic Matrix Factorization Method for Identifying lncRNA-Disease Associations, Genes 2019;10(2).
+
+5. Liu JX, Cui Z, Gao YL et al. WGRCMF: A Weighted Graph Regularized Collaborative Matrix Factorization Method for Predicting Novel LncRNA-Disease Associations, IEEE Journal of Biomedical and Health Informatics 2021;25(1):257-265.
+
+6. Wang M-N, You Z-H, Wang L et al. LDGRNMF: LncRNA-disease associations prediction based on graph regularized non-negative matrix factorization, Neurocomputing 2021;424:236-245.
+
+### Matrix completion
+1. Lu C, Yang M, Luo F et al. Prediction of lncRNA–disease associations based on inductive matrix completion, Bioinformatics 2018;34(19):3357-3364. [**[Code]**](https://github.com//bioinfomaticsCSU/SIMCLDA "Click") 
+
+2. Lu C, Yang M, Li M et al. Predicting Human lncRNA-Disease Associations Based on Geometric Matrix Completion, IEEE Journal of Biomedical and Health Informatics 2020;24(8):2420-2429.  [**[Code]**](https://github.com/bioinfomaticsCSU/GMCLDA "Click") 
+
+## Deep learning-based methods
+### Full connected neural network
+1. Hu J, Gao Y, Li J et al. Deep Learning Enables Accurate Prediction of Interplay Between lncRNA and Disease, Frontiers in genetics 2019;10. [**[Code]**](https://github.com/gao793583308/NNLDA "Click") 
+
+2. Zeng M, Lu C, Fei Z et al. DMFLDA: A Deep Learning Framework for Predicting lncRNA–Disease Associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021;18(6):2353-2363. [**[Code]**](https://github.com/CSUBioGroup/DMFLDA "Click")
+
+3. Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+
+### Convolutional neural network
+1. Xuan P, Cao Y, Zhang T et al. Dual Convolutional Neural Networks With Attention Mechanisms Based Method for Predicting Disease-Related lncRNA Genes, Frontiers in genetics 2019;10.
+
+2. Xuan P, Jia L, Zhang T et al. LDAPred: A Method Based on Information Flow Propagation and a Convolutional Neural Network for the Prediction of Disease-Associated lncRNAs, International journal of molecular sciences 2019;20(18).
+
+3. Wei H, Liao Q, Liu B. iLncRNAdis-FB: Identify lncRNA-Disease Associations by Fusing Biological Feature Blocks Through Deep Neural Network, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021;18(5):1946-1957.
+
+4. Zhang Y, Ye F, Gao X. MCA-Net: Multi-feature coding and attention convolutional neural network for predicting lncRNA-disease association, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1.
+
+### Autoencoder
+1. Xuan P, Sheng N, Zhang T et al. CNNDLP: A Method Based on Convolutional Autoencoder and Convolutional Neural Network with Adjacent Edge Attention for Predicting lncRNA–Disease Associations, International journal of molecular sciences 2019;20(17).
+
+2. Zhang Y, Ye F, Xiong D et al. LDNFSGB: prediction of long non-coding rna and disease association using network feature similarity and gradient boosting, BMC Bioinformatics 2020;21(1):377. [**[Code]**](https://github.com/MLMIP/LDNFSGB "Click") 
+
+3. Guo Z-H, You Z-H, Wang Y-B et al. A Learning-Based Method for LncRNA-Disease Association Identification Combing Similarity Information and Rotation Forest, iScience 2019;19:786-795.
+
+4. Su X, You Z, Yi H. Prediction of LncRNA-Disease Associations Based on Network Representation Learning. In: 2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). 2020, p.1805-1812.
+
+5. Sheng N, Cui H, Zhang T et al. Attentional multi-level representation encoding based on convolutional and variance autoencoders for lncRNA–disease association prediction, Briefings in Bioinformatics 2020;22(3).
+
+### Generative adversarial network
+1. Yang Q, Li X. BiGAN: LncRNA-disease association prediction based on bidirectional generative adversarial network, BMC Bioinformatics 2021;22(1):357. [**[Code]**](https://github.com/TomasYang001/BiGAN-lncRNA-disease-associations-prediction "Click")
+
+## Graph neural network-based methods
+### Graph feature extraction
+1. Xuan P, Pan S, Zhang T et al. Graph Convolutional Network and Convolutional Neural Network Based Method for Predicting lncRNA-Disease Associations, Cells 2019;8(9).
+
+2. Wu Q-W, Xia J-F, Ni J-C et al. GAERF: predicting lncRNA-disease associations by graph auto-encoder and random forest, Briefings in Bioinformatics 2021;22(5).
+
+
+3. Wu QW, Cao RF, Xia J et al. Extra Trees Method for Predicting LncRNA-Disease Association Based on Multi-layer Graph Embedding Aggregation, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Code]**](https://github.com/QingwWu/MLGCNET "Click")
+
+4. Sheng N, Huang L, Wang Y et al. Sheng N, Huang L, Wang Y et al. Multi-channel graph attention autoencoders for disease-related lncRNAs prediction, Briefings in Bioinformatics 2022;23(2). [**[Code]**](https://github.com/sheng-n/MGATE "Click")
+
+5. Lan W, Wu X, Chen Q et al. GANLDA: Graph attention network for lncRNA-disease associations prediction, Neurocomputing 2022;469:384-393.
+
+6. Xuan P, Zhan L, Cui H et al. Graph Triple-Attention Network for Disease-related LncRNA Prediction, IEEE Journal of Biomedical and Health Informatics 2021:1-1.
+
+7. Silva ABOV, Spinosa EJ. Graph Convolutional Auto-Encoders for predicting novel lncRNA-Disease associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1.
+
+
+### Graph matrix completion
+1. Wu X, Lan W, Chen Q et al. Inferring LncRNA-disease associations based on graph autoencoder matrix completion, Computational Biology and Chemistry 2020;87:107282.
+
+2. Fan Y, Chen M, Pan X. GCRFLDA: scoring lncRNA-disease associations using graph convolution matrix completion with conditional random field, Briefings in Bioinformatics 2021;23(1). [**[Code]**](https://github.com/jademyC1221/GCRFLDA "Click")
+
+3. Zhao X, Zhao X, Yin M. Heterogeneous graph attention network based on meta-paths for lncRNA–disease association prediction, Briefings in Bioinformatics 2021;23(1).
+
+4. Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
 
 ## 2013
-
 ## 2014
-
-
-
 ## 2015
-
-
-
-
 ## 2016
-
-
-2. Chen X, You Z-H, Yan G-Y et al. IRWRLDA: improved random walk with restart for lncRNA-disease association prediction, Oncotarget 2016;7(36):57919-57931.
-
 ## 2017
-
-
-
-
-3. Fu G, Wang J, Domeniconi C et al. Matrix factorization-based data fusion for the prediction of lncRNA–disease associations, Bioinformatics 2017;34(9):1529-1537. [**[Code]**](http://www.sdu-idea.cn/codes.php?name=MFLDA "Click") 
-
 ## 2018
-
-
-
-
-3. Lu C, Yang M, Luo F et al. Prediction of lncRNA–disease associations based on inductive matrix completion, Bioinformatics 2018;34(19):3357-3364. [**[Code]**](https://github.com//bioinfomaticsCSU/SIMCLDA "Click") 
-
 ## 2019
-1. Xuan P, Cao Y, Zhang T et al. Dual Convolutional Neural Networks With Attention Mechanisms Based Method for Predicting Disease-Related lncRNA Genes, Frontiers in genetics 2019;10.
- 
-
-
-
-
-
-
-
-23. Li Y, Li J, Bian N. DNILMF-LDA: Prediction of lncRNA-Disease Associations by Dual-Network Integrated Logistic Matrix Factorization and Bayesian Optimization, Genes 2019;10(8).
-
-25. Xuan Z, Li J, Yu J et al. A Probabilistic Matrix Factorization Method for Identifying lncRNA-Disease Associations, Genes 2019;10(2).
-
-27. Hu J, Gao Y, Li J et al. Deep Learning Enables Accurate Prediction of Interplay Between lncRNA and Disease, Frontiers in genetics 2019;10. [**[Code]**](https://github.com/gao793583308/NNLDA "Click") 
-
-29. Xuan P, Jia L, Zhang T et al. LDAPred: A Method Based on Information Flow Propagation and a Convolutional Neural Network for the Prediction of Disease-Associated lncRNAs, International journal of molecular sciences 2019;20(18).
-
-31. Xuan P, Sheng N, Zhang T et al. CNNDLP: A Method Based on Convolutional Autoencoder and Convolutional Neural Network with Adjacent Edge Attention for Predicting lncRNA–Disease Associations, International journal of molecular sciences 2019;20(17).
-
-33. Guo Z-H, You Z-H, Wang Y-B et al. A Learning-Based Method for LncRNA-Disease Association Identification Combing Similarity Information and Rotation Forest, iScience 2019;19:786-795.
-
-35. Xuan P, Pan S, Zhang T et al. Graph Convolutional Network and Convolutional Neural Network Based Method for Predicting lncRNA-Disease Associations, Cells 2019;8(9).
-
 ## 2020
-
-
-
-
-
-
-8. Wang Y, Yu G, Wang J et al. Weighted matrix factorization on multi-relational data for LncRNA-disease association prediction, Methods 2020;173:32-43. [**[Code]**](http://mlda.swu.edu.cn/codes.php?name=WMFLDA "Click") 
-
-10. Lu C, Yang M, Li M et al. Predicting Human lncRNA-Disease Associations Based on Geometric Matrix Completion, IEEE Journal of Biomedical and Health Informatics 2020;24(8):2420-2429.  [**[Code]**](https://github.com/bioinfomaticsCSU/GMCLDA "Click") 
-
-12. Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
-
-14. Zhang Y, Ye F, Xiong D et al. LDNFSGB: prediction of long non-coding rna and disease association using network feature similarity and gradient boosting, BMC Bioinformatics 2020;21(1):377. [**[Code]**](https://github.com/MLMIP/LDNFSGB "Click") 
-
-16. Su X, You Z, Yi H. Prediction of LncRNA-Disease Associations Based on Network Representation Learning. In: 2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). 2020, p. 1805-1812.
-
-18. Sheng N, Cui H, Zhang T et al. Attentional multi-level representation encoding based on convolutional and variance autoencoders for lncRNA–disease association prediction, Briefings in Bioinformatics 2020;22(3).
-
-20. Wu X, Lan W, Chen Q et al. Inferring LncRNA-disease associations based on graph autoencoder matrix completion, Computational Biology and Chemistry 2020;87:107282.
-
 ## 2021
-
-
-
-
-9. Liu JX, Cui Z, Gao YL et al. WGRCMF: A Weighted Graph Regularized Collaborative Matrix Factorization Method for Predicting Novel LncRNA-Disease Associations, IEEE Journal of Biomedical and Health Informatics 2021;25(1):257-265.
-
-11. Wang M-N, You Z-H, Wang L et al. LDGRNMF: LncRNA-disease associations prediction based on graph regularized non-negative matrix factorization, Neurocomputing 2021;424:236-245.
-
-13. Zeng M, Lu C, Fei Z et al. DMFLDA: A Deep Learning Framework for Predicting lncRNA–Disease Associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021;18(6):2353-2363. [**[Code]**](https://github.com/CSUBioGroup/DMFLDA "Click")
-
-15. Wei H, Liao Q, Liu B. iLncRNAdis-FB: Identify lncRNA-Disease Associations by Fusing Biological Feature Blocks Through Deep Neural Network, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021;18(5):1946-1957.
-
-17. Zhang Y, Ye F, Gao X. MCA-Net: Multi-feature coding and attention convolutional neural network for predicting lncRNA-disease association, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1.
-
-19. Yang Q, Li X. BiGAN: LncRNA-disease association prediction based on bidirectional generative adversarial network, BMC Bioinformatics 2021;22(1):357. [**[Code]**](https://github.com/TomasYang001/BiGAN-lncRNA-disease-associations-prediction "Click")
-
-21. Wu Q-W, Xia J-F, Ni J-C et al. GAERF: predicting lncRNA-disease associations by graph auto-encoder and random forest, Briefings in Bioinformatics 2021;22(5).
-
-23. Wu QW, Cao RF, Xia J et al. Extra Trees Method for Predicting LncRNA-Disease Association Based on Multi-layer Graph Embedding Aggregation, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Code]**](https://github.com/QingwWu/MLGCNET "Click")
-
-25. Xuan P, Zhan L, Cui H et al. Graph Triple-Attention Network for Disease-related LncRNA Prediction, IEEE Journal of Biomedical and Health Informatics 2021:1-1.
-
-27. Silva ABOV, Spinosa EJ. Graph Convolutional Auto-Encoders for predicting novel lncRNA-Disease associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1.
-
-29. Fan Y, Chen M, Pan X. GCRFLDA: scoring lncRNA-disease associations using graph convolution matrix completion with conditional random field, Briefings in Bioinformatics 2021;23(1). [**[Code]**](https://github.com/jademyC1221/GCRFLDA "Click")
-
-31. Zhao X, Zhao X, Yin M. Heterogeneous graph attention network based on meta-paths for lncRNA–disease association prediction, Briefings in Bioinformatics 2021;23(1).
-
-33. Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-
-
-
 ## 2022
 
 
-3. Sheng N, Huang L, Wang Y et al. Sheng N, Huang L, Wang Y et al. Multi-channel graph attention autoencoders for disease-related lncRNAs prediction, Briefings in Bioinformatics 2022;23(2). [**[Code]**](https://github.com/sheng-n/MGATE "Click")
 
-5. Lan W, Wu X, Chen Q et al. GANLDA: Graph attention network for lncRNA-disease associations prediction, Neurocomputing 2022;469:384-393.
+
+
 
 ## Cancer related lncRNA candidates
 

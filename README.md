@@ -7,6 +7,7 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
 ## Table of Contents
 * [Overview](#Overview) 
 * [Machine learning-based methods](#Machine-learning-based-methods) 
+  - [Regularized Least Square](#Regularized-Least-Square)
 * [Network propagation-based methods](#Network-propagation-based-methods) 
 * [Matrix factorization- and completion-based methods](#Matrix-factorization-and-completion-based-methods) 
 * [Deep learning-based methods](#Deep-learning-based-methods) 

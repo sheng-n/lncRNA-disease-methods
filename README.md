@@ -1,10 +1,18 @@
 # LncRNA-disease association prediction methods Review
 ![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-disease-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-disease-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.lncRNA-disease-methods)
 
+## What is LncRNA ?
+RNA can be divided into two categories based on its coding function: (1) RNAs with coding potential, and (2) RNAs without coding potential, also known as non-coding RNA (ncRNA), which includes microRNAs (miRNA), snoRNAs, circRNAs and lncRNAs. Long non-coding RNAs (lncRNAs) are a major class of important ncRNAs with the lengths more than 200 nucleotides. An increasing number of lncRNA have been found to be abnormally expressed in human diseases, and play a critical role in tumor development.
 
 ## Table of Contents
+* [Overview](#Overview) 
 * [Computational methods: [2013](#2013)  [2014](#2014) [2015](#2015) [2016](#2016) [2017](#2017) [2018](#2018)  [2019](#2019) [2020](#2020)  [2021](#2021) [2022](#2022)]
 * [Cancer-related lncRNA candidates](#Cancer-related-lncRNA-candidates) 
+
+## Overview
+We present a timely and comprehensive review of existing computational methods for lncRNA-disease association prediction. Specifically, these methods are systematically classified and divided into 5 categories, including machine learning, network propagation, matrix factorization and completion, deep learning, and graph neural networks, as shown below.
+![Computational lncRNA-disease association prediction methods based on various models.](https://user-images.githubusercontent.com/95516781/168040579-416a1848-be8b-4066-af50-48453d29f011.png)
+Fig 1: Computational lncRNA-disease association prediction methods based on various models.
 
 ## 2013
 1. Chen X, Yan G-Y. Novel human lncRNA–disease association inference based on lncRNA expression profiles, Bioinformatics 2013;29(20):2617-2624.

@@ -6,6 +6,10 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
 
 ## Table of Contents
 * [Overview](#Overview) 
+* [Data resources](#Data-resources) 
+  - [LncRNA-disease association data resources](#LncRNA-disease-association-data-resources)
+  - [LncRNA-related data resourcess](#LncRNA-related-data-resources)
+  - [Disease-related data resources](#Disease-related-data-resources)
 * [Machine learning-based methods](#Machine-learning-based-methods) 
   - [Regularized Least Square](#Regularized-Least-Square)
   - [Support Vector Machine](#Support-Vector-Machine)
@@ -45,13 +49,32 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 
 ## Data resources
 ### LncRNA-disease association data resources
-| Name  | Description  | URL | 
+| Database  | Description  | URL | 
 |:------------------:|:-----:|:---------------: |
-|LncRNADisease  | Documents 19,166 lncRNAs, 529 diseases and 10,564 association in Homo sapiens, Mus musculus, Rattus norvegicus and Gallus gallus  | http://www.rnanut.net/lncrnadisease/) |
-|PTCSC1              |8      |LDGRNMF           |
-|LINCMD1             |8      |iLncRNAdis-FB     |
-|CCDC26              |14     |iLncRNAdis-FB     |
-|SRA1                |8,9    |LDA-LNSUBRW, DNILMF-LDA |
+|LncRNADisease  | Documents 19,166 lncRNAs, 529 diseases and 10,564 association in Homo sapiens, Mus musculus, Rattus norvegicus and Gallus gallus  | http://www.rnanut.net/lncrnadisease/ |
+|Lnc2Cancer     |Collects 2,659 lncRNAs, 216 cancers and 9,254 associations in human     |http://bio-bigdata.hrbmu.edu.cn/lnc2cancer/ |
+|MNDR           |Records 39,880 lncRNA, over 1,600 diseases and 295,834 associations in 11 mammals |http://www.rna-society.org/mndr/  |
+
+### LncRNA-related data resources
+| Database  | Description  | URL | 
+|:------------------:|:-----:|:---------------: |
+|ArrayExpresion   | An archive of functional genomics datas  | http://www.ebi.ac.uk/arrayexpress/ |
+|NONCODE     |Records the comprehensive knowledge database of ncRNA from 39 speciesn |http://www.noncode.org/ |
+|RNAcentral  |Documents ncRNA sequences for 296 species  |https://rnacentral.org/  |
+|EVLncRNAs   |Collects sequence, structure, function and phenotype information of experimentally validated lncRNAs|https://www.sdklab-biophysics-dzu.net/EVLncRNAs2/|
+|starBase (ENCORI)|Records lncRNA-miRNA, miRNA-mRNA, ncRNA-RNA interactions information|  https://starbase.sysu.edu.cn/|
+|NPInter     |Documents the regulatory interactions between ncRNAs and other biomolecules| http://bigdata.ibp.ac.cn/npinter4/|
+|LncRNA2target| Collects experimentally supported lncRNA and target relationships|http://www.bio-annotation.cn/lncrna2target/index.jsp|
+|LncACTdb| Records ceRNA interactions and comprehensive annotations | http://bio-bigdata.hrbmu.edu.cn/LncACTdb/|
+
+### Disease-related data resources
+| Database  | Description  | URL | 
+|:------------------:|:-----:|:---------------: |
+|Disease Ontology   | The DO semantically integrates disease and medical vocabularies  | https://disease-ontology.org/ |
+|HPO     |A comprehensive logical standard for describing and computationally analyzing phenotypic abnormalities found in human diseases |https://hpo.jax.org/app/ |
+|OMIM  |Describes genes with known sequence and phenotypes   |http://www.ncbi.nlm.nih.gov/omim  |
+|DisGeNet   |Collects 30,170 diseases, 21,671 genes and 1124,942 associations|https://www.disgenet.org/|
+|HMDD (ENCORI)|Records 893 diseases, 1,206 miRNAs and 35,547 associations in human|  http://www.cuilab.cn/hmdd|
 
 
 ## Machine learning-based methods

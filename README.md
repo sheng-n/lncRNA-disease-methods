@@ -43,6 +43,17 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 
 * We collected and analyzed potential seven disease-related lncRNAs, which were predicted from LDA computational prediction methods over the last three years (2019-2021), to provide a candidate lncRNAs list for biological experimental verification.
 
+## Data resources
+### LncRNA-disease association data resources
+| Name  | Description  | URL | 
+|:------------------:|:-----:|:---------------: |
+|LncRNADisease  | Documents 19,166 lncRNAs, 529 diseases and 10,564 association in Homo sapiens, Mus musculus, Rattus norvegicus and Gallus gallus  | http://www.rnanut.net/lncrnadisease/) |
+|PTCSC1              |8      |LDGRNMF           |
+|LINCMD1             |8      |iLncRNAdis-FB     |
+|CCDC26              |14     |iLncRNAdis-FB     |
+|SRA1                |8,9    |LDA-LNSUBRW, DNILMF-LDA |
+
+
 ## Machine learning-based methods
 ### Regularized Least Square
 1. **[LRLSLDA]** Chen X, Yan G-Y. Novel human lncRNA–disease association inference based on lncRNA expression profiles, Bioinformatics 2013;29(20):2617-2624. [**[Download]**](https://academic.oup.com/bioinformatics/article/29/20/2617/276977?login=true "Click") 

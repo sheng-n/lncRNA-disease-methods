@@ -41,6 +41,7 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
   - [Gastric(Stomach) cancer-related lncRNA candidates](#Gastric(Stomach)-cancer-related-lncRNA-candidates)
 
 ## Overview
+* LncRNA-related and disease-related data resources for LDA prediction are collected and presented, covering LDA data, lncRNA-related data (expression profiles, sequences, genes, miRNAs, proteins), and disease-related data (semantics, phenotypes, genes, miRNAs, proteins).
 * We present a timely and comprehensive review of existing computational methods for lncRNA-disease association prediction. Specifically, these methods are systematically classified and divided into 5 categories, including machine learning, network propagation, matrix factorization and completion, deep learning, and graph neural networks, as shown below figure 1.
 ![Computational lncRNA-disease association prediction methods based on various models.](https://user-images.githubusercontent.com/95516781/168040579-416a1848-be8b-4066-af50-48453d29f011.png)
 Fig 1: Computational lncRNA-disease association prediction methods based on various models.

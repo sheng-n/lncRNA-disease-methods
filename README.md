@@ -37,13 +37,15 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
   - [Gastric(Stomach) cancer-related lncRNA candidates](#Gastric(Stomach)-cancer-related-lncRNA-candidates)
 
 ## Overview
-We present a timely and comprehensive review of existing computational methods for lncRNA-disease association prediction. Specifically, these methods are systematically classified and divided into 5 categories, including machine learning, network propagation, matrix factorization and completion, deep learning, and graph neural networks, as shown below.
+* We present a timely and comprehensive review of existing computational methods for lncRNA-disease association prediction. Specifically, these methods are systematically classified and divided into 5 categories, including machine learning, network propagation, matrix factorization and completion, deep learning, and graph neural networks, as shown below figure 1.
 ![Computational lncRNA-disease association prediction methods based on various models.](https://user-images.githubusercontent.com/95516781/168040579-416a1848-be8b-4066-af50-48453d29f011.png)
 Fig 1: Computational lncRNA-disease association prediction methods based on various models.
 
+* We collected and analyzed potential seven disease-related lncRNAs, which were predicted from LDA computational prediction methods over the last three years (2019-2021), to provide a candidate lncRNAs list for biological experimental verification.
+
 ## Machine learning-based methods
 ### Regularized Least Square
-1. **[LRLSLDA]** Chen X, Yan G-Y. Novel human lncRNA–disease association inference based on lncRNA expression profiles, Bioinformatics 2013;29(20):2617-2624.
+1. **[LRLSLDA]** Chen X, Yan G-Y. Novel human lncRNA–disease association inference based on lncRNA expression profiles, Bioinformatics 2013;29(20):2617-2624. [**[Download]**](https://academic.oup.com/bioinformatics/article/29/20/2617/276977?login=true "Click") 
 
 2. **[LNCSIM]** Chen X, Clarence Yan C, Luo C et al. Constructing lncRNA functional similarity network based on lncRNA-disease associations and disease semantic similarity, Scientific Reports 2015;5(1):11338.
 

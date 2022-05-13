@@ -28,6 +28,13 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
   - [Graph feature extraction](#Graph-feature-extraction)
   - [Graph matrix completion](#Graph-matrix-completion)
 * [Cancer-related lncRNA candidates](#Cancer-related-lncRNA-candidates) 
+  - [Lung cancer-related lncRNA candidates](#Lung-cancer-related-lncRNA-candidates)
+  - [Prostate cancer-related lncRNA candidates](#Prostate-cancer-related-lncRNA-candidates)
+  - [Breast cancer-related lncRNA candidates](#Breast-cancer-related-lncRNA-candidates)
+  - [Colorectal cancer-related lncRNA candidates](#Colorectal-cancer-related-lncRNA-candidates)
+  - [Colon cancer-related lncRNA candidates](#Colon-cancer-related-lncRNA-candidates)
+  - [Cervical cancer-related lncRNA candidates](#Cervical-cancer-related-lncRNA-candidates)
+  - [Gastric(Stomach) cancer-related lncRNA candidates](#Gastric(Stomach)-cancer-related-lncRNA-candidates)
 
 ## Overview
 We present a timely and comprehensive review of existing computational methods for lncRNA-disease association prediction. Specifically, these methods are systematically classified and divided into 5 categories, including machine learning, network propagation, matrix factorization and completion, deep learning, and graph neural networks, as shown below.
@@ -189,7 +196,7 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 
 ## Cancer related lncRNA candidates
 
-### Table 1. Lung cancer-related lncRNA candidates
+### Lung cancer-related lncRNA candidates
 | Unverified lncRNA  | Rank  | Prediction model | Unverified lncRNA  | Rank  | Prediction model
 |:------------------:|:-----:|:---------------: |:------------------:|:-----:|:---------------:|
 |TCL6                | 5     | LDGRNMF          |LINC00271           |16     |ILDMSF           |
@@ -198,7 +205,7 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 |CCDC26              |14     |iLncRNAdis-FB     |PCA3                |2      |CNNLDA           |
 |SRA1                |8,9    |LDA-LNSUBRW, DNILMF-LDA |LINC00675     |3      |CNNLDA           |
 
-### Table 2. Prostate cancer-related lncRNA candidates
+### Prostate cancer-related lncRNA candidates
 | Unverified lncRNA  | Rank  | Prediction model | Unverified lncRNA  | Rank  | Prediction model
 |:------------------:|:-----:|:---------------: |:------------------:|:-----:|:---------------:|
 |LSINCT5             |5      | GAERF            |RN7SK               |4      |DMFLDA           |
@@ -207,21 +214,21 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 |PRINS               |14     |GANLDA            |CYTOR               |8      |LDASR            |
 |PANDAR              |2      |DMFLDA            |CDKN2B-AS1          |2      |BiWalkLDA        |
 
-### Table 3. Breast cancer-related lncRNA candidates
+### Breast cancer-related lncRNA candidates
 | Unverified lncRNA  | Rank  | Prediction model | Unverified lncRNA  | Rank  | Prediction model
 |:------------------:|:-----:|:---------------: |:------------------:|:-----:|:---------------:|
 |GACAT2              |15     |GCRFLDA             |LRRC2-AS1         |7      |SVDNVLDA         |
 |DNM3OS              |1,5    |LDGRNMF, DNILMF-LDA |lnc-KCTD6-3       |9      |SVDNVLDA         |
 |RN7SK               |5      |LDGRNMF             |RPL34-AS1         |7      |DNILMF-LDA       |
 
-### Table 4. Colorectal cancer-related lncRNA candidates
+### Colorectal cancer-related lncRNA candidates
 | Unverified lncRNA  | Rank  | Prediction model | Unverified lncRNA  | Rank  | Prediction model
 |:------------------:|:-----:|:---------------: |:------------------:|:-----:|:---------------:|
 |TCL6                |5      |LDNFSGB           |LINC00237           |2      |DMFLDA           |
 |HAR1B               |6      |LDNFSGB           |FAS-AS1             |10     |DMFLDA           |
 |NBAT1               |10     |DMFLDA            |             
 
-### Table 5. Colon cancer-related lncRNA candidates
+### Colon cancer-related lncRNA candidates
 | Unverified lncRNA  | Rank  | Prediction model | Unverified lncRNA  | Rank  | Prediction model
 |:------------------:|:-----:|:---------------: |:------------------:|:-----:|:---------------:|
 |DNM3OS              |6      |VGAELDA           |LINC00663           |10     |iLncRNAdis-FB    |
@@ -229,14 +236,14 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 |LINC01628           |4      |iLncRNAdis-FB     |BC040587            |10     |DNILMF-LDA       |
 |KIRREL3-AS3         |9      |iLncRNAdis-FB     |
 
-### Table 6. Cervical cancer-related lncRNA candidates
+### Cervical cancer-related lncRNA candidates
 | Unverified lncRNA  | Rank  | Prediction model | Unverified lncRNA  | Rank  | Prediction model
 |:------------------:|:-----:|:---------------: |:------------------:|:-----:|:---------------:|
 |HOTTIP             |8       |GCRFLDA           |HOTAIRM1            |7      |LDNFSGB          |
 |IGF2-AS            |11      |GCRFLDA           |FER1L4              |8      |IIRWR            |
 |TUSC7              |15      |GCRFLDA           |FAM212B-AS1         |10     |IIRWR            |
 
-### Table 7. Gastric(Stomach) cancer-related lncRNA candidates
+### Gastric(Stomach) cancer-related lncRNA candidates
 | Unverified lncRNA  | Rank  | Prediction model | Unverified lncRNA  | Rank  | Prediction model
 |:------------------:|:-----:|:---------------: |:------------------:|:-----:|:---------------:|
 |bx118339            |9      |LDGRNMF           |MEG8                |7      |GANLDA           |

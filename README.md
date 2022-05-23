@@ -150,7 +150,7 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 
 6. **[LDAH2V]** Deng L, Li W, Zhang J. LDAH2V: Exploring Meta-Paths Across Multiple Networks for lncRNA-Disease Association Prediction, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021;18(4):1572-1581. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/8897023 "Click") 
 
-7. **[SVDNVLDA]** Li J, Li J, Kong M et al. SVDNVLDA: predicting lncRNA-disease associations by Singular Value Decomposition and node2vec, BMC Bioinformatics 2021;22(1):538. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04457-1 "Click") 
+7. **[SVDNVLDA]** Li J, Li J, Kong M et al. SVDNVLDA: predicting lncRNA-disease associations by Singular Value Decomposition and node2vec, BMC Bioinformatics 2021;22(1):538. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04457-1 "Click") [**[Code]**](https://github.com/iALKing/SVDNVLDA "Click") 
 
 ## Matrix factorization- and completion-based methods
 ### Matrix factorization

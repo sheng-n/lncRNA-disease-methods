@@ -19,7 +19,7 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
   - [Random walk](#Random-walk)
   - [Flow propagation and label propagation](#Flow-propagation-and-label-propagation)
   - [Network inference](#Network-inference)
-  - [Other network propagation algorithms](#Other-network-propagation-algorithmse)
+  - [Other network propagation algorithms](#Other-network-propagation-algorithms)
 * [Matrix factorization- and completion-based methods](#Matrix-factorization-and-completion-based-methods) 
   - [Matrix factorization](#Matrix-factorizatione)
   - [Matrix completion](#Matrix-completion)

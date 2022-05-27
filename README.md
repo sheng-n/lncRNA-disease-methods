@@ -1,4 +1,4 @@
-# LncRNA-disease association prediction methods Review
+# A comprehensive survey of long non-coding RNAs in complex diseases: resources and computational methods
 ![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-disease-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-disease-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.lncRNA-disease-methods)
 
 ## What is LncRNA?

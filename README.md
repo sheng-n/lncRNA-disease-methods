@@ -1,4 +1,4 @@
-# 🏎💨vroom <a href='https:/vroom.r-lib.org'><img src='man/figures/logo.png' align="right" height="135" /></a>
+# 🏎💨lncRNA-disease association prediction methods <a href='https:/lncRNA-disease-methods.r-lib.org'><img src='man/figures/logo.png' align="right" height="135" /></a>
 # A comprehensive survey of long non-coding RNAs in complex diseases: resources and computational methods
 ![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-disease-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-disease-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.lncRNA-disease-methods)
 

@@ -1,5 +1,5 @@
 # 🏎💨lncRNA-disease association prediction methods <a href='https:/lncRNA-disease-methods.r-lib.org'></a>
-# A comprehensive survey of long non-coding RNAs in complex diseases: resources and computational methods
+# A survey of computational methods and data resources for lncRNA-disease association prediction
 ![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-disease-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-disease-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.lncRNA-disease-methods)
 
 ## What is LncRNA?
@@ -68,6 +68,11 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 |NPInter     |Documents the regulatory interactions between ncRNAs and other biomolecules| http://bigdata.ibp.ac.cn/npinter4/|
 |LncRNA2target| Collects experimentally supported lncRNA and target relationships|http://www.bio-annotation.cn/lncrna2target/index.jsp|
 |LncACTdb| Records ceRNA interactions and comprehensive annotations | http://bio-bigdata.hrbmu.edu.cn/LncACTdb/|
+|LNCipedia| A public database of lncRNA sequences and annotations | https://lncipedia.org|
+|lncRNAWiki| Integrates lncRNA sequence and annotation information from three data sources, including GENCODE, NONCODE and LNCippedia | http://lncrna.big.ac.cn|
+|lncRNome| Provides experimental and prediction datasets of RNA-protein interactions for lncRNAs | http://genome.igib.res.in/lncRNome|
+|LncExpDB| A comprehensive database for human lncRNA expression | https://ngdc.cncb.ac.cn/lncexpdb|
+|RAID| Provides RNA-associated crosstalk, including RNA-RNA and RNA-protein interactions,| https://www.rna-society.org/raid2|
 
 ### Disease-related data resources
 | Database  | Description  | URL | 

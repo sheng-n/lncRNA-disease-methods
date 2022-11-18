@@ -296,14 +296,14 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 
 ## Welcome to contribute
 ```
-@article{SN_LMI,
-  title={A survey of computational methods and databases for lncRNA-miRNA interaction prediction},
-  author={Nan Sheng, Lan Huang, Ling Gao, Yangkun Cao, Xuping Xie, Yan Wang},
-  journal={IEEE/ACM Transactions on Computational Biology and Bioinformatics (Under review)},
+@article{SN_LDA,
+  title={A survey of computational methods and data resources for lncRNA-disease association prediction},
+  author={Nan Sheng, Lan Huang, Yuting Lu, Hao Wang, Lili Yang, Ling Gao, Xuping Xie, Yuan Fu, Yan Wang},
+  journal={Computers in Biology and Medicine (Under review)},
   year={2022},
-  publisher={IEEE}
+  publisher={Elsevier}
 }
-
+```
 If you would like to help contribute this list, please feel free to contact me by email:
 
 * Email: shengnan21@mails.jlu.edu.cn

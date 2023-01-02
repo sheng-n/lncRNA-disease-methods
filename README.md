@@ -299,7 +299,7 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 @article{SN_LDA,
   title={A survey of computational methods and data resources for lncRNA-disease association prediction},
   author={Nan Sheng, Lan Huang, Yuting Lu, Hao Wang, Lili Yang, Ling Gao, Xuping Xie, Yuan Fu, Yan Wang},
-  journal={Computers in Biology and Medicine (Under review)},
+  journal={Computers in Biology and Medicine (Accept)},
   year={2022},
   publisher={Elsevier}
 }

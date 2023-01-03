@@ -1,5 +1,5 @@
 # 🏎💨lncRNA-disease association prediction methods <a href='https:/lncRNA-disease-methods.r-lib.org'></a>
-# A survey of computational methods and data resources for lncRNA-disease association prediction
+# Data resources and computational methods for lncRNA-disease association prediction
 ![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-disease-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-disease-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.lncRNA-disease-methods)
 
 ## What is LncRNA?
@@ -60,7 +60,6 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 ### LncRNA-related data resources
 | Database  | Description  | URL | 
 |:------------------:|:-----:|:---------------: |
-|ArrayExpresion   | An archive of functional genomics datas  | http://www.ebi.ac.uk/arrayexpress/ |
 |NONCODE     |Records the comprehensive knowledge database of ncRNA from 39 speciesn |http://www.noncode.org/ |
 |RNAcentral  |Documents ncRNA sequences for 296 species  |https://rnacentral.org/  |
 |EVLncRNAs   |Collects sequence, structure, function and phenotype information of experimentally validated lncRNAs|https://www.sdklab-biophysics-dzu.net/EVLncRNAs2/|

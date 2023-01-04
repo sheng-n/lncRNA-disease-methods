@@ -294,7 +294,7 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 
 
 
-## cite
+## Cite
 Sheng N, Huang L, Lu Y et al. Data resources and computational methods for lncRNA-disease association prediction, Computers in Biology and Medicine 2023:106527.
 
 ## Welcome to contribute

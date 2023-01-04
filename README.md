@@ -41,7 +41,7 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
   - [Cervical cancer-related lncRNA candidates](#Cervical-cancer-related-lncRNA-candidates)
   - [Gastric(Stomach) cancer-related lncRNA candidates](#Gastric(Stomach)-cancer-related-lncRNA-candidates)
  * [Cite](#Cite)
- * [Welcome to contribute](#Welcome to contribute)
+ * [Welcome to contribute](#Welcome-to-contribute)
 
 ## Overview
 * LncRNA-related and disease-related data resources for LDA prediction are collected and presented, covering LDA data, lncRNA-related data (expression profiles, sequences, genes, miRNAs, proteins), and disease-related data (semantics, phenotypes, genes, miRNAs, proteins).

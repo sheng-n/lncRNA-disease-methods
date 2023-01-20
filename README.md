@@ -2,7 +2,7 @@
 # Data resources and computational methods for lncRNA-disease association prediction
 ![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-disease-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-disease-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.lncRNA-disease-methods)
 
-## Paper [**[Download]**](https://academic.oup.com/bioinformatics/article/29/20/2617/276977?login=true "Click") 
+## Paper [**[Paper link]**](https://doi.org/10.1016/j.compbiomed.2022.106527 "Click") 
 
 ## What is LncRNA?
 RNA can be divided into two categories based on its coding function: (1) RNAs with coding potential, and (2) RNAs without coding potential, also known as non-coding RNA (ncRNA), which includes microRNAs (miRNA), snoRNAs, circRNAs and lncRNAs. Long non-coding RNAs (lncRNAs) are a major class of important ncRNAs with the lengths more than 200 nucleotides. An increasing number of lncRNA have been found to be abnormally expressed in human diseases, and play a critical role in tumor development.

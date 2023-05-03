@@ -1,7 +1,10 @@
 # 🏎💨lncRNA-disease association prediction methods <a href='https:/lncRNA-disease-methods.r-lib.org'></a>
 # Data resources and computational methods for lncRNA-disease association prediction
 ![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-disease-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-disease-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.lncRNA-disease-methods)
-
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/sheng-n.lncRNA-disease-methods/count.svg" />
+</p>
 <a href="https://info.flagcounter.com/haJo"><img src="https://s11.flagcounter.com/count2/haJo/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_6/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 
 ## Paper [**[Paper link]**](https://doi.org/10.1016/j.compbiomed.2022.106527 "Click") 

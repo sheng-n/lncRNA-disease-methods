@@ -7,6 +7,8 @@
 </p>
 
 ## Paper [**[Paper link]**](https://doi.org/10.1016/j.compbiomed.2022.106527 "Click") 
+## Cite
+Sheng N, Huang L, Lu Y et al. Data resources and computational methods for lncRNA-disease association prediction, Computers in Biology and Medicine 2023:106527.
 
 ## What is LncRNA?
 RNA can be divided into two categories based on its coding function: (1) RNAs with coding potential, and (2) RNAs without coding potential, also known as non-coding RNA (ncRNA), which includes microRNAs (miRNA), snoRNAs, circRNAs and lncRNAs. Long non-coding RNAs (lncRNAs) are a major class of important ncRNAs with the lengths more than 200 nucleotides. An increasing number of lncRNA have been found to be abnormally expressed in human diseases, and play a critical role in tumor development.

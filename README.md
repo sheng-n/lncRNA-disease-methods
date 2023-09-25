@@ -9,6 +9,8 @@
 ## Paper [**[Paper link]**](https://doi.org/10.1016/j.compbiomed.2022.106527 "Click") 
 ## Cite
 Sheng N, Huang L, Lu Y et al. Data resources and computational methods for lncRNA-disease association prediction, Computers in Biology and Medicine 2023:106527.
+## Update record
+* [20230925](#2023-year) 
 
 ## What is LncRNA?
 RNA can be divided into two categories based on its coding function: (1) RNAs with coding potential, and (2) RNAs without coding potential, also known as non-coding RNA (ncRNA), which includes microRNAs (miRNA), snoRNAs, circRNAs and lncRNAs. Long non-coding RNAs (lncRNAs) are a major class of important ncRNAs with the lengths more than 200 nucleotides. An increasing number of lncRNA have been found to be abnormally expressed in human diseases, and play a critical role in tumor development.
@@ -92,7 +94,25 @@ Fig 1: Computational lncRNA-disease association prediction methods based on vari
 |DisGeNet   |Collects 30,170 diseases, 21,671 genes and 1124,942 associations|https://www.disgenet.org/|
 |HMDD (ENCORI)|Records 893 diseases, 1,206 miRNAs and 35,547 associations in human|  http://www.cuilab.cn/hmdd|
 
+## 2023 year
+1. **[GCLMTP]** Sheng, Nan, et al. Multi-task prediction-based graph contrastive learning for inferring the relationship among lncRNAs, miRNAs and diseases. Briefings in Bioinformatics 24.5 (2023): bbad276. [**[Download]**](https://academic.oup.com/bib/article/24/5/bbad276/7234625 "Click")  [**[Code]**](https://github.com/sheng-n/GCLMTP "Click")
+  
+2. **[LDAGRL]** Zhang P, Zhang W, Sun W, et al. A lncRNA-disease association prediction tool development based on bridge heterogeneous information network via graph representation learning for family medicine and primary care[J]. Frontiers in Genetics, 2023, 14: 1084482. [**[Download]**](https://www.frontiersin.org/articles/10.3389/fgene.2023.1084482/full "Click"))
+  
+3. **[MCHNLDA]** Zhao X, Wu J, Zhao X, et al. Multi-view contrastive heterogeneous graph attention network for lncRNA–disease association prediction[J]. Briefings in Bioinformatics, 2023, 24(1): bbac548. [**[Download]**](https://academic.oup.com/bib/article/24/1/bbac548/6931723 "Click")
+   
+4. **[LDAEXC]** Lu C, Xie M. LDAEXC: LncRNA–Disease Associations Prediction with Deep Autoencoder and XGBoost Classifier[J]. Interdisciplinary Sciences: Computational Life Sciences, 2023: 1-13. [**[Download]**](https://link.springer.com/article/10.1007/s12539-023-00573-z "Click")
 
+5. **[SSMF-BLNP]** Xie G B, Chen R B, Lin Z Y, et al. Predicting lncRNA–disease associations based on combining selective similarity matrix fusion and bidirectional linear neighborhood label propagation[J]. Briefings in Bioinformatics, 2023, 24(1): bbac595. [**[Download]**](https://academic.oup.com/bib/article/24/1/bbac595/6966536 "Click")  [**[Code]**](https://github.com/RuiBingo/SSMF-BLNP "Click")
+
+6. **[LDAP-WMPS]** Wang B, Zhang C, Du X, et al. lncRNA-disease association prediction based on the weight matrix and projection score[J]. Plos one, 2023, 18(1): e0278817. [**[Download]**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278817 "Click")
+
+7. **[LDAF_GAN]** Zhong H, Luo J, Tang L, et al. Association filtering and generative adversarial networks for predicting lncRNA-associated disease[J]. BMC bioinformatics, 2023, 24(1): 234. [**[Download]**](https://link.springer.com/article/10.1186/s12859-023-05368-z "Click")  [**[Code]**](https://github.com/ZhonghuaYNNU/LDAF_GAN "Click")
+
+8. **[GraLTR-LDA]** Liang Q, Zhang W, Wu H, et al. LncRNA-disease association identification using graph auto-encoder and learning to rank[J]. Briefings in Bioinformatics, 2023, 24(1): bbac539. [**[Download]**](https://academic.oup.com/bib/article/24/1/bbac539/6955271 "Click")  [**[Code]**](http://bliulab.net/GraLTR-LDA "Click")
+
+9. **[GraLTR-LDA]** Zhang Z, Xu J, Wu Y, et al. CapsNet-LDA: predicting lncRNA-disease associations using attention mechanism and capsule network based on multi-view data[J]. Briefings in Bioinformatics, 2023, 24(1): bbac531. [**[Download]**](https://academic.oup.com/bib/article/24/1/bbac531/6889447 "Click")  [**[Code]**](https://github.com/YingLiangjxau/CapsNet-LDA "Click")
+   
 ## Machine learning-based methods
 ### Regularized Least Square
 1. **[LRLSLDA]** Chen X, Yan G-Y. Novel human lncRNA–disease association inference based on lncRNA expression profiles, Bioinformatics 2013;29(20):2617-2624. [**[Download]**](https://academic.oup.com/bioinformatics/article/29/20/2617/276977?login=true "Click") 

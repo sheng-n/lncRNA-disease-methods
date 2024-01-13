@@ -7,8 +7,6 @@
 </p>
 
 ## Paper [**[Paper link]**](https://doi.org/10.1016/j.compbiomed.2022.106527 "Click") 
-## Cite
-Sheng N, Huang L, Lu Y et al. Data resources and computational methods for lncRNA-disease association prediction, Computers in Biology and Medicine 2023:106527.
 ## Update record
 * [20230925](#2023-year) 
 
